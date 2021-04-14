@@ -8,4 +8,4 @@ setup:
     bundler-cache: true
 build:
   name: Build Jekyll
-  command: jekyll build
+  command: bundle exec jekyll build
