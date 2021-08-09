@@ -1,11 +1,11 @@
 ---
 distFolder: _site
 setup:
-- name: Set up Ruby 2.7
+- name: Setup project
   action: ruby/setup-ruby@v1
   properties:
     ruby-version: 2.7
     bundler-cache: true
 build:
-  name: Build Jekyll
+  name: Build project
   command: bundle exec jekyll build
