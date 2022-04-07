@@ -1,28 +1,28 @@
-# hello-jekyll
+# Jekyll Sample for Deploy Now
 
-[![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-jekyll)
+This is a basic Jekyll website. You can use it as a starting point for your project or to give [Deploy Now](https://www.ionos.com/hosting/deploy-now) a try.
 
-## Setup
+## How to deploy it 
 
-Install Bundler if not already present
-```bash
-gem install bundler
-```
+1. [Sign in or sign up](https://ionos.space/sign-up) for Deploy Now
+2. Click this button and name your new repo
 
-Install dependencies
-```bash
-bundle install
-```
+   [![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-jekyll)
 
-Serve local jekyll on 127.0.0.1:4000
-```bash
-jekyll serve
-# Use --live-reload to watch for changes
-```
+3. Deploy Now will detect necessary build dependencies and commands. You can adjust them and add environment variables.
 
-## Build
+Afterwards, Deploy Now will set up a [GitHub Actions](https://github.com/features/actions) workflow that will be triggered by every new code commit. Build results are automatically deployed to IONOS infrastructure. Projects go live under a preview URL, but you can replace it with a custom domain anytime.
 
-Build static site in `_site`
-```bash
-jekyll build
-```
+## Helpful links
+[Deploy Now docs](https://docs.ionos.space/)
+
+[About Static Sites on Deploy Now](https://docs.ionos.space/docs/deploy-static-sites/)
+
+[About build configuration](https://docs.ionos.space/docs/github-actions-customization/)
+
+[Sign up for Deploy Now](https://ionos.space/sign-up)
+
+Missing a feature? Create a [GitHub issue](https://github.com/ionos-deploy-now/ionos-deploy-now/issues). 
+
+_IONOS Deploy Now - made with :heart: by [us](https://docs.ionos.space/about-us/) in Karlsruhe, Germany_
+
